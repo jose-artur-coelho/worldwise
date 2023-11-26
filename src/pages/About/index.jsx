@@ -1,8 +1,10 @@
+import PageNav from "../../components/PagNav";
 import styles from "./About.module.css";
 
 export default function About() {
   return (
     <main className={styles.about}>
+      <PageNav />
       <section>
         <img
           src="img-1.jpg"
